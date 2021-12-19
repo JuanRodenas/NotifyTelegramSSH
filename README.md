@@ -4,7 +4,7 @@ Para poder recibir los mensajes en el Telegram, debes obtener el Token y chat_id
 - Bot token: https://t.me/botfather
 - Chat_ID: https://t.me/myidbot
 
-![alt text](https://github.com/JuanRodenas/HelloSystemBoot/blob/main/hellotelegram.png)
+![alt text](https://github.com/JuanRodenas/NotifyTelegramSSH/blob/main/hellotelegram.png)
 
 Empezamos a instalar el bot de inicio. Para que funcione necesita permisos, por lo que instalar en el usuario ROOT:
 ### Instalar los paquetes y actualizamos el sistema
@@ -15,7 +15,7 @@ sudo apt curl -y
 ~~~~
 
 ### Edita el script notifyTelegramssh.sh, para añadir tu token de bot, y tu chat_id, renombra el script elegido a hello.sh
-Descargar el script [script notifyTelegramssh.sh](https://github.com/JuanRodenas/HelloSystemBoot/blob/main/hello.sh)
+Descargar el script [script notifyTelegramssh.sh](https://github.com/JuanRodenas/NotifyTelegramSSH/blob/main/notifyTelegramssh.sh)
 Y modicamos lo siguiente:
 ~~~~
 TOKEN_BOT="YOUR_TOKEN_BOT"
