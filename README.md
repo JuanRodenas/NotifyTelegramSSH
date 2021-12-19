@@ -28,7 +28,6 @@ chmod a+x /root/scripts/notifyTelegramssh.sh
 ~~~~
 
 ### Agregamos al final del archivo /etc/pam.d/sshd la línea pam
-
 ~~~~
 # Notificacion acceso ssh al servidor
 session required pam_exec.so /root/scripts/notifyTelegramssh.sh
