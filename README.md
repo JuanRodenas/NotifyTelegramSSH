@@ -14,7 +14,7 @@ sudo apt upgrade -y
 sudo apt curl -y
 ~~~~
 
-### Edita el script notifyTelegramssh.sh, para añadir tu token de bot, y tu chat_id, renombra el script elegido a hello.sh
+### Edita el script notifyTelegramssh.sh, para añadir tu token de bot, y tu chat_id
 Descargar el script [script notifyTelegramssh.sh](https://github.com/JuanRodenas/NotifyTelegramSSH/blob/main/notifyTelegramssh.sh)
 Y modicamos lo siguiente:
 ~~~~
