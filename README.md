@@ -29,7 +29,7 @@ chmod a+x /root/scripts/notifyTelegramssh.sh
 
 ### Agregamos al final del archivo /etc/pam.d/sshd la línea pam
 ~~~~
-/etc/pam.d/sshd la línea
+sudo nano /etc/pam.d/sshd
 ~~~~
 ~~~~
 # Notificacion acceso ssh al servidor
